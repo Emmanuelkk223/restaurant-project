@@ -1,0 +1,53 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Django migrations (optional – track only __init__.py)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Pipenv virtual environments (outside project folder)
+pipenv_venv/
+
+# You usually **track** these, but ignore if you're handling them differently:
+# Pipfile
+# Pipfile.lock
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# pytest
+.pytest_cache/
+.cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# MyPy, Pyright, etc.
+.mypy_cache/
+.pyright/
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
