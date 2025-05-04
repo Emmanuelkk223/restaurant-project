@@ -26,8 +26,8 @@ staticfiles/
 pipenv_venv/
 
 # You usually **track** these, but ignore if you're handling them differently:
-# Pipfile
-# Pipfile.lock
+Pipfile
+Pipfile.lock
 
 # OS generated
 .DS_Store
